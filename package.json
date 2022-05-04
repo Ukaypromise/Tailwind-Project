@@ -1,0 +1,24 @@
+{
+  "name": "tailwind-project",
+  "version": "1.0.0",
+  "description": "This Project was to enhance my Tailwind CSS skills.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ukaypromise/Tailwind-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ukaypromise/Tailwind-Project/issues"
+  },
+  "homepage": "https://github.com/Ukaypromise/Tailwind-Project#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
