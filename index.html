@@ -30,6 +30,26 @@
           class="hidden md:block hover:bg-lightGold p-2 px-6 pt-2 text-white bg-lightPurple rounded-full baseline"
           >Order Now</a
         >
+        <!-- Hambuger Icon -->
+        <button
+          id="menu-btn"
+          class="open block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolut flex flex-col items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="#" class="hover:text-lightGold">Home</a>
+          <a href="#" class="hover:text-lightGold">Products</a>
+          <a href="#" class="hover:text-lightGold">Services</a>
+          <a href="#" class="hover:text-lightGold">About Us</a>
+        </div>
       </div>
     </nav>
     <!-- Hero Section -->
@@ -174,7 +194,151 @@
         <h2 class="text-4xl font-bold text-center">
           What is so Unique about Shugaplum Cakes
         </h2>
+        <!-- Testimonial Container -->
+        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+          <!-- Testimonial 1 -->
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3"
+          >
+            <img src="/images/avatar-anisha.png" class="w-16 -mt-14" alt="" />
+            <h5 class="text-lg font-bold">Godsfavour Ehidiamen</h5>
+            <p class="text-sm text-darkGrayishBlue">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+              velit.
+            </p>
+          </div>
+          <!-- Testimonial 2 -->
+          <div
+            class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3"
+          >
+            <img src="/images/avatar-shanai.png" class="w-16 -mt-14" alt="" />
+            <h5 class="text-lg font-bold">Orion Precious</h5>
+            <p class="text-sm text-darkGrayishBlue">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+              velit.
+            </p>
+          </div>
+          <!-- Testimonial 3 -->
+          <div
+            class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3"
+          >
+            <img src="/images/avatar-richard.png" class="w-16 -mt-14" alt="" />
+            <h5 class="text-lg font-bold">CanaanLand People</h5>
+            <p class="text-sm text-darkGrayishBlue">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere,
+              velit.
+            </p>
+          </div>
+        </div>
+        <!-- Button -->
+        <div class="my-16">
+          <a
+            href=""
+            class="hover:bg-lightGold p-2 px-6 pt-2 text-white bg-lightPurple rounded-full baseline"
+            >Order Now</a
+          >
+        </div>
       </div>
     </section>
+    <!-- CTA section -->
+    <section id="section" class="bg-brightRed">
+      <!-- Flex Container -->
+      <div
+        class="container flex flex-col items-center justify-between px-6 py24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-12 py-8"
+      >
+        <h2
+          class="text-5xl font-bold leading-tight text-center text-white md:text-4xl max-w-xl md:text-left"
+        >
+          Place your order Now, and get it delivered in less than 15mins!
+        </h2>
+        <!-- Button -->
+        <a
+          href=""
+          class="hover:bg-lightPurple hover:text-white p-2 px-6 pt-2 text-lightPurple shadow-2xl bg-white rounded-full baseline"
+          >Order Now</a
+        >
+      </div>
+    </section>
+    <section>
+      <!-- Footer Section -->
+      <footer class="bg-veryDarkBlue">
+        <!-- Flex container -->
+        <div
+          class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
+        >
+          <!-- Logo and social links container -->
+          <div
+            class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start"
+          >
+            <div class="mx-auto my-6 text-center text-white md:hidden">
+              Copyright &copy; 2022, All Rights Reserved
+            </div>
+            <!-- Logo -->
+            <div>
+              <div class="pt-2 flex items-center text-lightGold">
+                <img src="/images/shugaplum.svg" class="h-8" alt="" />
+                <h3 class="text-white"><strong>Shugaplum Cakes</strong></h3>
+              </div>
+            </div>
+            <!-- Social links Container -->
+            <div class="flex justify-center space-x-4">
+              <!-- Link 1 -->
+              <a href="#">
+                <img src="/images/icon-facebook.svg" alt="" class="h-8" />
+              </a>
+              <!-- Link 2 -->
+              <a href="#">
+                <img src="/images/icon-instagram.svg" alt="" class="h-8" />
+              </a>
+              <!-- Link 3 -->
+              <a href="#">
+                <img src="/images/icon-twitter.svg" alt="" class="h-8" />
+              </a>
+              <!-- Link 4 -->
+              <a href="#">
+                <img src="/images/icon-youtube.svg" alt="" class="h-8" />
+              </a>
+            </div>
+          </div>
+          <!-- List Container -->
+          <div class="flex justify-around space-x-32">
+            <div class="flex flex-col space-y-3 text-white">
+              <a href="#" class="hover:text-brightRed">Home</a>
+              <a href="#" class="hover:text-brightRed">Products</a>
+              <a href="#" class="hover:text-brightRed">Services</a>
+              <a href="#" class="hover:text-brightRed">About Us</a>
+            </div>
+            <div class="flex flex-col space-y-3 text-white">
+              <a href="#" class="hover:text-brightRed">Training</a>
+              <a href="#" class="hover:text-brightRed">Community</a>
+              <a href="#" class="hover:text-brightRed">Other Services</a>
+            </div>
+          </div>
+          <!-- Input Container -->
+          <div class="flex-col justify-between">
+            <form>
+              <div class="flex space-x-3 items-center">
+                <label for="email" class="text-white px-4">Email</label>
+                <input
+                  name="email"
+                  type="text"
+                  class="flex-1 px-4 rounded-full focus:outline-none"
+                  placeholder="Updates in your Inbox"
+                />
+                <button
+                  class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none"
+                >
+                  Send
+                </button>
+              </div>
+            </form>
+            <div class="hidden text-white my-6 mx-8 md:block">
+              Copyright &copy; 2022, All Rights Reserved
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script src="js/script.js"></script>
   </body>
 </html>
